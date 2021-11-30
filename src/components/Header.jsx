@@ -31,7 +31,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import 'animate.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
 import './css/Media.css';
 
 interface ExpandMoreProps extends IconButtonProps {
@@ -142,8 +143,11 @@ const Header = () => {
 
   return (
     <>
+
+
+
       <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand text-light fs-2 mx-5" href="#">Gerald</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -174,6 +178,9 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+
+
 
       <div id="home" class="container bg">
         <div>
