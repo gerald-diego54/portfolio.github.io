@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
+/* .text-dark {
+    position: relative;
+    bottom: 6em;
+    font-size: 40px;
+    font-weight:700;
+} */
+.height {
+    position: relative;
+    top: -200px;
+    left: 100px;
+    width: 700px;
+    height: 700px;
+}
+.texts {
+    margin-left: 50px;
+    padding-top: 100px;
+    font-weight: 700;
+}
+.fs-5 {
+    text-align: justify;
+    width: 600px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.fatima-logo {
+    height: 30vh;
+    position: relative;
+    left: 770px;
+    bottom: 620px;
+}
+.kodego-logo {
+    height: 10vh;
+    position: relative;
+    bottom: 640px;
+    left: 840px;
+}
+.cisco-logo {
+    height: 17vh;
+    position: relative;
+    bottom: 590px;
+    left: 900px;
+}
+.udemy-logo {
+    height: 30vh;
+    position: relative;
+    bottom: 700px;
+    left: 880px;
+}
+.micro {
+    height: 20vh;
+    position: relative;
+    left: 1200px;
+    bottom: 700px;
+}
+.dict {
+    position: relative;
+    bottom: 620px;
+    left: 600px;
+}
+.freecodecamp {
+    height: 6vh;
+    position: relative;
+    left: 1100px;
+    bottom: 1320px;
+}

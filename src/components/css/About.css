@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
+.about {
+    height: 80vh;
+    position: relative;
+    left: 100px;
+}
+.lead {
+    position: relative;
+    width: 600px;
+    text-align: justify;
+    left: 780px;
+    top: -600px;
+    color: #1848A0;
+    font-size: 18px !important;
+}
+.tools {
+    background: #414141;
+    height: 50vh;
+    position: relative;
+    bottom: 400px;
+}
+.figma {
+    height: 20vh;
+    left: 767px;
+    bottom: 331px;
+    position: relative;   
+}
+.adobe {
+    height: 20vh;
+    left: 400px;
+    position: relative;
+}
+.sass {
+    height: 20vh;
+    left: 1160px;
+    bottom: 170px;
+    position: relative;
+}
+.container-fluid > .text-center {
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+}

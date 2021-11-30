@@ -1,0 +1,125 @@
+@media screen and (max-width: 972px) {
+    
+    
+    /*  Main Section */
+
+
+    .navbar{
+        
+    }
+    .container > div > .img-pos {
+        display: none;
+    }
+    .container > .display-pos > .hello{
+        display: inline;
+        position: relative;
+        top: 700px;
+        left: 50px;
+    }
+    .container > .display-pos > .heading {
+        position: relative;
+        top: 720px;
+        width: 500px;
+        left: 50px;
+    }
+    .container > .display-pos > .intro {
+        position: relative;
+        top: 720px;
+        width: 500px;
+        /* border: 1px solid white; */
+        left: 50px;
+    }
+    .container > .contain > .row {
+        position: relative;
+        top: 600px;
+        left: -70px;
+        width: 800px;
+    }
+
+
+    /* About Section */
+
+
+    #about > .about {
+        position: relative;
+        left: 180px;
+    }
+    #about > .lead {
+        position: relative;
+        top: 80px;
+        left: 160px;
+    }
+    .tools {
+        position: relative;
+        top: 200px;
+    }
+    .tools > .row {
+        width: 600px;
+    }
+    .tools > .row >.col {
+        position: relative;
+        display: flex;
+        flex-direction:row;
+        left: 0px;
+        width: 0px;
+        border: 1px solid black;
+    }
+    .figma {
+        position: relative;
+        left: 380px;
+
+    }
+    .adobe {
+        position: relative;
+        left: 70px;
+    }
+    .sass {
+        position: relative;
+        left: 680px;    
+    }
+
+
+    /* Certificates Sections */
+
+
+    #certificates {
+        position: relative;
+        top: 300px;
+    }
+
+    /* Projects Section */
+
+    #projects {
+        position: relative;
+        top: 500px;
+    }
+    
+    .proj-sect {
+        position: relative;
+        top: 1000px;
+    }
+    .fatima-logo {
+        position: relative;
+        top: 220px;
+        left: 20px;
+    }
+    .kodego-logo {
+        position: relative;
+        top: 200px;
+        left: 100px;
+    }
+    .cisco-logo {
+        position: relative;
+        left: 20px;
+        top: 270px;
+    }
+    .udemy-logo {
+        position: relative;
+        left: 100px;
+        top: 280px;
+    }
+    .dict {
+        position: relative;
+        left: 20px;
+    }
+}
