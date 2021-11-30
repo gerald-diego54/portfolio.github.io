@@ -77,7 +77,7 @@ const Header = () => {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+    this.el.innerHTML = '<span className="wrap">' + this.txt + '</span>';
 
     var that = this;
     var delta = 300 - Math.random() * 100;
@@ -146,34 +146,34 @@ const Header = () => {
 
 
 
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light fs-2 mx-5" href="#">Gerald</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+        <div className="container-fluid">
+          <a className="navbar-brand text-light fs-2 mx-5" href="#">Gerald</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light fs-6" aria-current="page" href="#home">Home</a>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active text-light fs-6" aria-current="page" href="#home">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="#about">About</a>
+              <li className="nav-item">
+                <a className="nav-link text-light fs-6" href="#about">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="#certificates">
+              <li className="nav-item">
+                <a className="nav-link text-light fs-6" href="#certificates">
                   Certificates
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="#projects">Projects</a>
+              <li className="nav-item">
+                <a className="nav-link text-light fs-6" href="#projects">Projects</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fs-6" href="#services">Services</a>
+              <li className="nav-item">
+                <a className="nav-link text-light fs-6" href="#services">Services</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <button class="btn btn-outline-light" type="submit">Hire Me</button>
+            <form className="d-flex">
+              <button className="btn btn-outline-light" type="submit">Hire Me</button>
             </form>
           </div>
         </div>
@@ -182,70 +182,70 @@ const Header = () => {
 
 
 
-      <div id="home" class="container bg">
+      <div id="home" className="container bg">
         <div>
-          <img class="img-pos" src={gerald} />
+          <img className="img-pos" src={gerald} />
           {/* <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> */}
         </div>
         <div className="display-pos">
           <h3 className="hello animate__animated animate__backInDown">Hello</h3>
           <h1 className="heading animate__animated animate__backInUp">I'm Gerald Diego</h1><br />
           <p className="intro">
-            <span class="txt-rotate" data-period="2000" data-rotate='["< I am a Front-End Developer />", "< I am a Database Designer />", "< I am a Back-End Developer />", "< I am a IT Support Specialist />" ]'></span>
+            <span className="txt-rotate" data-period="2000" data-rotate='["< I am a Front-End Developer />", "< I am a Database Designer />", "< I am a Back-End Developer />", "< I am a IT Support Specialist />" ]'></span>
           </p><br /><br />
-          <button class="btn btn-outline-light btn-lg btn-style">Hire Me</button>
+          <button className="btn btn-outline-light btn-lg btn-style">Hire Me</button>
         </div>
-        <div class="container contain">
-          <div class="row">
-            <div class="col text-center"><p id="value" class="text-success fs-3 fw-bold">230</p><p class="text-uppercase">Projects Completed</p></div>
-            <div class="col text-center"><p id="value1" class="text-success fs-3 fw-bold">230+</p><p class="text-uppercase">Satisfied Clients</p></div>
-            <div class="col text-center"><p id="value2" class="text-success fs-3 fw-bold">230+</p><p class="text-uppercase">Years Experienced</p></div>
-            <div class="col text-center"><p id="value3" class="text-success fs-3 fw-bold">230+</p><p class="text-uppercase">Design Awards</p></div>
+        <div className="container contain">
+          <div className="row">
+            <div className="col text-center"><p id="value" className="text-success fs-3 fw-bold">230</p><p className="text-uppercase">Projects Completed</p></div>
+            <div className="col text-center"><p id="value1" className="text-success fs-3 fw-bold">230+</p><p className="text-uppercase">Satisfied Clients</p></div>
+            <div className="col text-center"><p id="value2" className="text-success fs-3 fw-bold">230+</p><p className="text-uppercase">Years Experienced</p></div>
+            <div className="col text-center"><p id="value3" className="text-success fs-3 fw-bold">230+</p><p className="text-uppercase">Design Awards</p></div>
           </div>
         </div>
       </div>
 
       {/* About Section */}
-      <div id="about" class="container-fluid">
+      <div id="about" className="container-fluid">
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <h1 class="text-dark text-center">About to Developer</h1><br /><br /><br /><br />
-        <img class="about" src={type} />
-        <p class="lead text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellendus quasi cum. Voluptate nemo, eligendi voluptates, maxime labore corporis nihil modi ex dignissimos numquam nisi dolorum dolor beatae dolorem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita fuga dolores tempora dolorum voluptates esse assumenda, quod sed inventore mollitia voluptas ipsum fugit saepe sit delectus obcaecati repudiandae quam.<br /><br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusantium, vitae velit autem necessitatibus exercitationem sunt libero perferendis fugit repellendus voluptatem quaerat deleniti reprehenderit cumque ut neque quidem quod! Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit omnis, sint obcaecati voluptates harum sed ab dolor laboriosam provident earum consequatur qui optio eius. Tenetur odit eum iure voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quam adipisci, recusandae expedita consequuntur iusto nam impedit quae voluptatem totam suscipit eius, dolor quis non. Ratione, eius? Non, provident inventore.</p>
+        <h1 className="text-dark text-center">About to Developer</h1><br /><br /><br /><br />
+        <img className="about" src={type} />
+        <p className="lead text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellendus quasi cum. Voluptate nemo, eligendi voluptates, maxime labore corporis nihil modi ex dignissimos numquam nisi dolorum dolor beatae dolorem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita fuga dolores tempora dolorum voluptates esse assumenda, quod sed inventore mollitia voluptas ipsum fugit saepe sit delectus obcaecati repudiandae quam.<br /><br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusantium, vitae velit autem necessitatibus exercitationem sunt libero perferendis fugit repellendus voluptatem quaerat deleniti reprehenderit cumque ut neque quidem quod! Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit omnis, sint obcaecati voluptates harum sed ab dolor laboriosam provident earum consequatur qui optio eius. Tenetur odit eum iure voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quam adipisci, recusandae expedita consequuntur iusto nam impedit quae voluptatem totam suscipit eius, dolor quis non. Ratione, eius? Non, provident inventore.</p>
       </div>
-      <div class="container-fluid tools">
-        <h2 class="text-center text-white py-4">My Tools Advantage</h2>
-        <div class="col">
-          <img class="adobe" src={adobeXd} />
+      <div className="container-fluid tools">
+        <h2 className="text-center text-white py-4">My Tools Advantage</h2>
+        <div className="col">
+          <img className="adobe" src={adobeXd} />
         </div>
-        <div class="col">
-          <img class="sass" src={SASS} />
+        <div className="col">
+          <img className="sass" src={SASS} />
         </div>
-        <div class="col">
-          <img class="figma" src={figma} />
+        <div className="col">
+          <img className="figma" src={figma} />
         </div>
       </div>
       {/* Certificates */}
-      <div id="certificates" class="bg-dark height">
-        <h1 class="text-white texts">Certificates of Completion</h1>
-        <p class="text-white fs-5 py-2">
+      <div id="certificates" className="bg-dark height">
+        <h1 className="text-white texts">Certificates of Completion</h1>
+        <p className="text-white fs-5 py-2">
           A certificate of completion can mean different things depending upon the program in which a person participates.<br /><br />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe modi maxime adipisci veniam quidem quae quia culpa magni cum, enim voluptas veritatis vero. Nulla, amet! Possimus nemo necessitatibus animi quos.<br /><br />
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maxime, possimus rerum eveniet eius nisi est qui doloribus ipsum quod architecto natus, quas modi facilis repellat nam error officia beatae.<br /><br />
           A certificate of completion can mean different things depending upon the program in which a person participates.
         </p>
-        <img class="fatima-logo" src={logo_fatima} />
-        <img class="kodego-logo" src="https://kodego.ph/_nuxt/img/kodego-large.7481d93.svg" />
-        <img class="cisco-logo" src="https://th.bing.com/th/id/R.7c8e3d91c6708fce205ff14d693f3f73?rik=gFF2RqCWd29iSw&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f11%2fCisco-logo.png&ehk=amjKwJX%2b3s9CVWoTkm%2fC8%2fqvlMChVLlDUH6S36sp9yE%3d&risl=&pid=ImgRaw&r=0" />
-        <img class="udemy-logo" src="https://download.logo.wine/logo/Udemy/Udemy-Logo.wine.png" />
-        <img class="micro" src="https://logos-download.com/wp-content/uploads/2019/06/Trend_Micro_Logo.png" />
-        <img class="dict" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/DICT-Logo-Final-2-300x153.png/320px-DICT-Logo-Final-2-300x153.png" />
-        <img class="freecodecamp" src="https://opensource.freecodecamp.org/design-style-guide/downloads/fcc_secondary_large.png" />
+        <img className="fatima-logo" src={logo_fatima} />
+        <img className="kodego-logo" src="https://kodego.ph/_nuxt/img/kodego-large.7481d93.svg" />
+        <img className="cisco-logo" src="https://th.bing.com/th/id/R.7c8e3d91c6708fce205ff14d693f3f73?rik=gFF2RqCWd29iSw&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f11%2fCisco-logo.png&ehk=amjKwJX%2b3s9CVWoTkm%2fC8%2fqvlMChVLlDUH6S36sp9yE%3d&risl=&pid=ImgRaw&r=0" />
+        <img className="udemy-logo" src="https://download.logo.wine/logo/Udemy/Udemy-Logo.wine.png" />
+        <img className="micro" src="https://logos-download.com/wp-content/uploads/2019/06/Trend_Micro_Logo.png" />
+        <img className="dict" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/DICT-Logo-Final-2-300x153.png/320px-DICT-Logo-Final-2-300x153.png" />
+        <img className="freecodecamp" src="https://opensource.freecodecamp.org/design-style-guide/downloads/fcc_secondary_large.png" />
       </div>
 
       {/* Projects Section */}
-      <div class="container-fluid">
-        <div class="proj-sect">
-          <h1 id="projects" class="text-center proj-size">Projects</h1>
+      <div className="container-fluid">
+        <div className="proj-sect">
+          <h1 id="projects" className="text-center proj-size">Projects</h1>
           <Stack container display="flex" flexWrap="wrap" marginTop="80px" justifyContent="center" align-items="center" direction="row" spacing={10} >
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
@@ -255,7 +255,7 @@ const Header = () => {
               />
               <CardContent>
                 <Typography className="header-name" variant="p" component="div">
-                  <div class="h4">Magazine: Praise and Worship Music</div>
+                  <div className="h4">Magazine: Praise and Worship Music</div>
                 </Typography><br />
                 <Typography variant="body2" color="text.secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos id dolore doloremque, culpa, voluptatem, atque voluptate fugit suscipit ullam vel dolorem quo molestiae aperiam ratione quae. Eveniet, libero. Id, fugiat?
@@ -314,7 +314,7 @@ const Header = () => {
               />
               <CardContent>
                 <Typography className="header-name" variant="p" component="div">
-                  <div class="h4">Outsourcing Website: 4WebServices</div>
+                  <div className="h4">Outsourcing Website: 4WebServices</div>
                 </Typography><br />
                 <Typography variant="body2" color="text.secondary">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos id dolore doloremque, culpa, voluptatem, atque voluptate fugit suscipit ullam vel dolorem quo molestiae aperiam ratione quae. Eveniet, libero. Id, fugiat?
@@ -369,10 +369,10 @@ const Header = () => {
       </div>
 
       {/* Services Section */}
-      <div id="services" class="container-fluid bg-dark px-5"><br /><br /><br />
-        <h1 class="text-center text-white">Customer's Feedback</h1><br /><br /><br />
-        <div class="row mx-5">
-          <div class="col mx-5">
+      <div id="services" className="container-fluid bg-dark px-5"><br /><br /><br />
+        <h1 className="text-center text-white">Customer's Feedback</h1><br /><br /><br />
+        <div className="row mx-5">
+          <div className="col mx-5">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -416,7 +416,7 @@ const Header = () => {
               </CardActions>
             </Card>
           </div>
-          <div class="col">
+          <div className="col">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -460,7 +460,7 @@ const Header = () => {
               </CardActions>
             </Card>
           </div>
-          <div class="col">
+          <div className="col">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -506,8 +506,8 @@ const Header = () => {
           </div>
         </div>
         <br /><br /><br /><br />
-        <div class="row mx-5">
-          <div class="col mx-5">
+        <div className="row mx-5">
+          <div className="col mx-5">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -551,7 +551,7 @@ const Header = () => {
               </CardActions>
             </Card>
           </div>
-          <div class="col">
+          <div className="col">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -595,7 +595,7 @@ const Header = () => {
               </CardActions>
             </Card>
           </div>
-          <div class="col">
+          <div className="col">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
                 avatar={
@@ -644,57 +644,57 @@ const Header = () => {
       <br /><br /><br /><br />
 
       {/* Footer Sections */}
-      <div id="footer" class="container">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-2">
+      <div id="footer" className="container">
+        <footer className="py-5">
+          <div className="row">
+            <div className="col-2">
               <h5>Navigations</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-muted">About</a></li>
-                <li class="nav-item mb-2"><a href="#certificates" class="nav-link p-0 text-muted">Certificates</a></li>
-                <li class="nav-item mb-2"><a href="#projects" class="nav-link p-0 text-muted">Projects</a></li>
-                <li class="nav-item mb-2"><a href="#services" class="nav-link p-0 text-muted">Services</a></li>
+              <ul className="nav flex-column">
+                <li className="nav-item mb-2"><a href="#home" className="nav-link p-0 text-muted">Home</a></li>
+                <li className="nav-item mb-2"><a href="#about" className="nav-link p-0 text-muted">About</a></li>
+                <li className="nav-item mb-2"><a href="#certificates" className="nav-link p-0 text-muted">Certificates</a></li>
+                <li className="nav-item mb-2"><a href="#projects" className="nav-link p-0 text-muted">Projects</a></li>
+                <li className="nav-item mb-2"><a href="#services" className="nav-link p-0 text-muted">Services</a></li>
               </ul>
             </div>
 
-            <div class="col-2">
+            <div className="col-2">
               <h5>Social Meadia</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+              <ul className="nav flex-column">
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Facebook</a></li>
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Twitter</a></li>
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Instagram</a></li>
               </ul>
             </div>
 
-            <div class="col-2">
+            <div className="col-2">
               <h5>Projects Portfolio</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">GitHub</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">LinkedIn</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Codepen</a></li>
+              <ul className="nav flex-column">
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">GitHub</a></li>
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">LinkedIn</a></li>
+                <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Codepen</a></li>
               </ul>
             </div>
 
-            <div class="col-4 offset-1">
+            <div className="col-4 offset-1">
               <form>
                 <h5>Subscribe to our newsletter</h5>
                 <p>Monthly digest of whats new and exciting from us.</p>
-                <div class="d-flex w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address"></input>
-                  <button class="btn btn-dark" type="button">Subscribe</button>
+                <div className="d-flex w-100 gap-2">
+                  <label for="newsletter1" className="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" className="form-control" placeholder="Email address"></input>
+                  <button className="btn btn-dark" type="button">Subscribe</button>
                 </div>
               </form>
             </div>
           </div>
 
-          <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <div className="d-flex justify-content-between py-4 my-4 border-top">
             <p>&copy; 2021 Gerald Diego</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use href="#twitter" /></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use href="#instagram" /></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use href="#facebook" /></svg></a></li>
+            <ul className="list-unstyled d-flex">
+              <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use href="#twitter" /></svg></a></li>
+              <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use href="#instagram" /></svg></a></li>
+              <li className="ms-3"><a className="link-dark" href="#"><svg className="bi" width="24" height="24"><use href="#facebook" /></svg></a></li>
             </ul>
           </div>
         </footer>
