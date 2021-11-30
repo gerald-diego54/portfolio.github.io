@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.bba443cd.chunk.css",
+    "main.js": "/portfolio.github.io/static/js/main.7132982e.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.7132982e.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.db3b0dd8.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.db3b0dd8.js.map",
+    "static/css/2.f38ddc32.chunk.css": "/portfolio.github.io/static/css/2.f38ddc32.chunk.css",
+    "static/js/2.a7204e6b.chunk.js": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js",
+    "static/js/2.a7204e6b.chunk.js.map": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js.map",
+    "static/js/3.2d0d3e32.chunk.js": "/portfolio.github.io/static/js/3.2d0d3e32.chunk.js",
+    "static/js/3.2d0d3e32.chunk.js.map": "/portfolio.github.io/static/js/3.2d0d3e32.chunk.js.map",
+    "index.html": "/portfolio.github.io/index.html",
+    "static/css/2.f38ddc32.chunk.css.map": "/portfolio.github.io/static/css/2.f38ddc32.chunk.css.map",
+    "static/css/main.bba443cd.chunk.css.map": "/portfolio.github.io/static/css/main.bba443cd.chunk.css.map",
+    "static/js/2.a7204e6b.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js.LICENSE.txt",
+    "static/media/Clinical-Form.08f7f9d2.png": "/portfolio.github.io/static/media/Clinical-Form.08f7f9d2.png",
+    "static/media/Group-Proj.9057795b.png": "/portfolio.github.io/static/media/Group-Proj.9057795b.png",
+    "static/media/Magazine.6065e3ea.png": "/portfolio.github.io/static/media/Magazine.6065e3ea.png",
+    "static/media/SASS.be5eb2cd.svg": "/portfolio.github.io/static/media/SASS.be5eb2cd.svg",
+    "static/media/adobe-xd.58b75831.svg": "/portfolio.github.io/static/media/adobe-xd.58b75831.svg",
+    "static/media/calculator.b7f7ee2e.png": "/portfolio.github.io/static/media/calculator.b7f7ee2e.png",
+    "static/media/fatima-logo-removebg-preview.4212a407.png": "/portfolio.github.io/static/media/fatima-logo-removebg-preview.4212a407.png",
+    "static/media/figma-icon.0eaca9f4.svg": "/portfolio.github.io/static/media/figma-icon.0eaca9f4.svg",
+    "static/media/gerald.ffa9e4c1.png": "/portfolio.github.io/static/media/gerald.ffa9e4c1.png",
+    "static/media/typing.5fceade3.svg": "/portfolio.github.io/static/media/typing.5fceade3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db3b0dd8.js",
+    "static/css/2.f38ddc32.chunk.css",
+    "static/js/2.a7204e6b.chunk.js",
+    "static/css/main.bba443cd.chunk.css",
+    "static/js/main.7132982e.chunk.js"
+  ]
+}
