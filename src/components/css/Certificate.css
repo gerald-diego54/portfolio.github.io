@@ -34,7 +34,7 @@
 .kodego-logo {
     height: 10vh;
     position: relative;
-    bottom: 640px;
+    bottom: 580px;
     left: 840px;
 }
 .cisco-logo {
@@ -46,14 +46,14 @@
 .udemy-logo {
     height: 30vh;
     position: relative;
-    bottom: 700px;
+    bottom: 660px;
     left: 880px;
 }
 .micro {
     height: 20vh;
     position: relative;
     left: 1200px;
-    bottom: 700px;
+    bottom: 680px;
 }
 .dict {
     position: relative;
@@ -64,5 +64,5 @@
     height: 6vh;
     position: relative;
     left: 1100px;
-    bottom: 1320px;
+    bottom: 1280px;
 }

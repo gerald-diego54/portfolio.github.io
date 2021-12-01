@@ -66,16 +66,18 @@
     }
     .figma {
         position: relative;
-        left: 380px;
+        left: 50px;
+        top: -10px;
 
     }
     .adobe {
         position: relative;
         left: 70px;
+        top: -8px;
     }
     .sass {
         position: relative;
-        left: 680px;    
+        left: 500px;    
     }
 
 
@@ -87,17 +89,6 @@
         top: 300px;
     }
 
-    /* Projects Section */
-
-    #projects {
-        position: relative;
-        top: 500px;
-    }
-    
-    .proj-sect {
-        position: relative;
-        top: 1000px;
-    }
     .fatima-logo {
         position: relative;
         top: 220px;
@@ -120,6 +111,40 @@
     }
     .dict {
         position: relative;
-        left: 20px;
+        left: 50px;
+        top: 270px;
+    }
+
+        /* Projects Section */
+
+    .projects {
+        position: relative;
+        top: 300px;
+    }
+    
+    #projects {
+        position: relative;
+        top: 0px;
+    }
+    
+    .proj-sect {
+        position: relative;
+        top: 1000px;
+    }
+    
+    .margin {
+        position: relative;
+        top: 40px;
+    }
+    .margin1 {
+        position: relative;
+        top: 40px;
+    }
+
+    /* Services Section */
+
+    #services {
+        position: relative;
+        top: 1400px;
     }
 }

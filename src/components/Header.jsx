@@ -144,10 +144,8 @@ const Header = () => {
   return (
     <>
 
-
-
-      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
-        <div className="container-fluid">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div className="container">
           <a className="navbar-brand text-light fs-2 mx-5" href="#">Gerald</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -178,9 +176,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-
-
-
 
       <div id="home" className="container bg">
         <div>
@@ -214,16 +209,11 @@ const Header = () => {
       </div>
       <div className="container-fluid tools">
         <h2 className="text-center text-white py-4">My Tools Advantage</h2>
-        <div className="col">
-          <img className="adobe" src={adobeXd} />
-        </div>
-        <div className="col">
-          <img className="sass" src={SASS} />
-        </div>
-        <div className="col">
-          <img className="figma" src={figma} />
-        </div>
+        <img className="adobe" src={adobeXd} />
+        <img className="sass" src={SASS} />
+        <img className="figma" src={figma} />
       </div>
+
       {/* Certificates */}
       <div id="certificates" className="bg-dark height">
         <h1 className="text-white texts">Certificates of Completion</h1>
@@ -243,7 +233,7 @@ const Header = () => {
       </div>
 
       {/* Projects Section */}
-      <div className="container-fluid">
+      <div className="container-fluid projects">
         <div className="proj-sect">
           <h1 id="projects" className="text-center proj-size">Projects</h1>
           <Stack container display="flex" flexWrap="wrap" marginTop="80px" justifyContent="center" align-items="center" direction="row" spacing={10} >
@@ -285,7 +275,7 @@ const Header = () => {
             </Card>
 
 
-            <Card sx={{ maxWidth: 345 }}>
+            <Card className="margin" sx={{ maxWidth: 345 }}>
               <CardMedia
                 component="img"
                 height="300"
@@ -346,7 +336,7 @@ const Header = () => {
             </Card>
 
 
-            <Card sx={{ maxWidth: 345 }}>
+            <Card className="margin1" sx={{ maxWidth: 345 }}>
               <CardMedia
                 component="img"
                 height="300"
@@ -368,7 +358,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Services Section */}
+{/* Services Section */}
       <div id="services" className="container-fluid bg-dark px-5"><br /><br /><br />
         <h1 className="text-center text-white">Customer's Feedback</h1><br /><br /><br />
         <div className="row mx-5">

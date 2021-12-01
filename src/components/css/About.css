@@ -23,8 +23,8 @@
 }
 .figma {
     height: 20vh;
-    left: 767px;
-    bottom: 331px;
+    left: 397px;
+    bottom: 1px;
     position: relative;   
 }
 .adobe {
@@ -34,8 +34,8 @@
 }
 .sass {
     height: 20vh;
-    left: 1160px;
-    bottom: 170px;
+    left: 900px;
+    bottom: 10px;
     position: relative;
 }
 .container-fluid > .text-center {
