@@ -1,4 +1,4 @@
-@media screen and (max-width: 972px) {
+@media screen and (max-width: 980px) {
     
     
     /*  Main Section */
@@ -111,25 +111,36 @@
     }
     .dict {
         position: relative;
-        left: 50px;
-        top: 270px;
+        left: -100px;
+        top: 370px;
+    }
+    .freecodecamp {
+        position: relative;
+        left: 200px;
+        top: 500px;
+    }
+    .micro {
+        position: relative;
+        left: 500px;
+        top: 370px;
     }
 
         /* Projects Section */
 
     .projects {
         position: relative;
-        top: 300px;
+        top: 400px;
     }
     
     #projects {
         position: relative;
         top: 0px;
+        font-size: 60px;
     }
     
     .proj-sect {
         position: relative;
-        top: 1000px;
+        top: 1200px;
     }
     
     .margin {
@@ -145,6 +156,13 @@
 
     #services {
         position: relative;
-        top: 1400px;
+        top: 1600px;
+    }
+
+    /* Footer Section */
+
+    #footer {
+        position: relative;
+        top: 1600px;
     }
 }
