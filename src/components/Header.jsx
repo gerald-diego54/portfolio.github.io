@@ -34,6 +34,9 @@ import 'animate.css';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import './css/Media.css';
+import Aos from 'aos/dist/aos';
+import "aos/dist/aos.css";
+import {useEffect} from 'react'
 
 interface ExpandMoreProps extends IconButtonProps {
   expand: boolean;
@@ -140,6 +143,7 @@ const Header = () => {
     document.querySelector('#value3').textContent = Math.floor(value) + "+";
   }, 0, 103, 10000);
 
+  Aos.init();
 
   return (
     <>
@@ -177,10 +181,9 @@ const Header = () => {
         </div>
       </nav>
 
-      <div id="home" className="container bg">
+      <div  data-aos="fade-down" id="home" className="container bg">
         <div>
           <img className="img-pos" src={gerald} />
-          {/* <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" /> */}
         </div>
         <div className="display-pos">
           <h3 className="hello animate__animated animate__backInDown">Hello</h3>
@@ -190,7 +193,7 @@ const Header = () => {
           </p><br /><br />
           <button className="btn btn-outline-light btn-lg btn-style">Hire Me</button>
         </div>
-        <div className="container contain">
+        <div data-aos="fade-down" className="container contain">
           <div className="row">
             <div className="col text-center"><p id="value" className="text-success fs-3 fw-bold">230</p><p className="text-uppercase">Projects Completed</p></div>
             <div className="col text-center"><p id="value1" className="text-success fs-3 fw-bold">230+</p><p className="text-uppercase">Satisfied Clients</p></div>
@@ -203,11 +206,11 @@ const Header = () => {
       {/* About Section */}
       <div id="about" className="container-fluid">
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <h1 className="text-dark text-center">About to Developer</h1><br /><br /><br /><br />
-        <img className="about" src={type} />
-        <p className="lead text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellendus quasi cum. Voluptate nemo, eligendi voluptates, maxime labore corporis nihil modi ex dignissimos numquam nisi dolorum dolor beatae dolorem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita fuga dolores tempora dolorum voluptates esse assumenda, quod sed inventore mollitia voluptas ipsum fugit saepe sit delectus obcaecati repudiandae quam.<br /><br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusantium, vitae velit autem necessitatibus exercitationem sunt libero perferendis fugit repellendus voluptatem quaerat deleniti reprehenderit cumque ut neque quidem quod! Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit omnis, sint obcaecati voluptates harum sed ab dolor laboriosam provident earum consequatur qui optio eius. Tenetur odit eum iure voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quam adipisci, recusandae expedita consequuntur iusto nam impedit quae voluptatem totam suscipit eius, dolor quis non. Ratione, eius? Non, provident inventore.</p>
+        <h1 data-aos="fade-down" className="text-dark text-center">About to Developer</h1><br /><br /><br /><br />
+        <img data-aos="fade-right" className="about" src={type} />
+        <p data-aos="fade-left" className="lead text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellendus quasi cum. Voluptate nemo, eligendi voluptates, maxime labore corporis nihil modi ex dignissimos numquam nisi dolorum dolor beatae dolorem dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita fuga dolores tempora dolorum voluptates esse assumenda, quod sed inventore mollitia voluptas ipsum fugit saepe sit delectus obcaecati repudiandae quam.<br /><br /> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde accusantium, vitae velit autem necessitatibus exercitationem sunt libero perferendis fugit repellendus voluptatem quaerat deleniti reprehenderit cumque ut neque quidem quod! Ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, odit omnis, sint obcaecati voluptates harum sed ab dolor laboriosam provident earum consequatur qui optio eius. Tenetur odit eum iure voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quam adipisci, recusandae expedita consequuntur iusto nam impedit quae voluptatem totam suscipit eius, dolor quis non. Ratione, eius? Non, provident inventore.</p>
       </div>
-      <div className="container-fluid tools">
+      <div data-aos="fade-up" className="container-fluid tools">
         <h2 className="text-center text-white py-4">My Tools Advantage</h2>
         <img className="adobe" src={adobeXd} />
         <img className="sass" src={SASS} />
@@ -215,7 +218,7 @@ const Header = () => {
       </div>
 
       {/* Certificates */}
-      <div id="certificates" className="bg-dark height">
+      <div data-aos="fade-up" id="certificates" className="bg-dark height">
         <h1 className="text-white texts">Certificates of Completion</h1>
         <p className="text-white fs-5 py-2">
           A certificate of completion can mean different things depending upon the program in which a person participates.<br /><br />
@@ -235,8 +238,8 @@ const Header = () => {
       {/* Projects Section */}
       <div className="container-fluid projects">
         <div className="proj-sect">
-          <h1 id="projects" className="text-center proj-size">Projects</h1>
-          <Stack container display="flex" flexWrap="wrap" marginTop="80px" justifyContent="center" align-items="center" direction="row" spacing={10} >
+          <h1 data-aos="fade-up" id="projects" className="text-center proj-size">Projects</h1>
+          <Stack data-aos="fade-up" container display="flex" flexWrap="wrap" marginTop="80px" justifyContent="center" align-items="center" direction="row" spacing={10} >
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
                 component="img"
@@ -360,8 +363,8 @@ const Header = () => {
 
 {/* Services Section */}
       <div id="services" className="container-fluid bg-dark px-5"><br /><br /><br />
-        <h1 className="text-center text-white">Customer's Feedback</h1><br /><br /><br />
-        <div className="row mx-5">
+        <h1 data-aos="fade-up" className="text-center text-white">Customer's Feedback</h1><br /><br /><br />
+        <div data-aos="fade-up" className="row mx-5">
           <div className="col mx-5">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
@@ -496,7 +499,7 @@ const Header = () => {
           </div>
         </div>
         <br /><br /><br /><br />
-        <div className="row mx-5">
+        <div data-aos="fade-up" className="row mx-5">
           <div className="col mx-5">
             <Card sx={{ maxWidth: 345 }}>
               <CardHeader
