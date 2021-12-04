@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio.github.io/static/css/main.31073f77.chunk.css",
-    "main.js": "/portfolio.github.io/static/js/main.f90f7c19.chunk.js",
-    "main.js.map": "/portfolio.github.io/static/js/main.f90f7c19.chunk.js.map",
-    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.db3b0dd8.js",
-    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.db3b0dd8.js.map",
-    "static/css/2.f38ddc32.chunk.css": "/portfolio.github.io/static/css/2.f38ddc32.chunk.css",
-    "static/js/2.a7204e6b.chunk.js": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js",
-    "static/js/2.a7204e6b.chunk.js.map": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js.map",
-    "static/js/3.2d0d3e32.chunk.js": "/portfolio.github.io/static/js/3.2d0d3e32.chunk.js",
-    "static/js/3.2d0d3e32.chunk.js.map": "/portfolio.github.io/static/js/3.2d0d3e32.chunk.js.map",
+    "main.js": "/portfolio.github.io/static/js/main.d0e9e72f.chunk.js",
+    "main.js.map": "/portfolio.github.io/static/js/main.d0e9e72f.chunk.js.map",
+    "runtime-main.js": "/portfolio.github.io/static/js/runtime-main.9cf52126.js",
+    "runtime-main.js.map": "/portfolio.github.io/static/js/runtime-main.9cf52126.js.map",
+    "static/css/2.0aa8ee07.chunk.css": "/portfolio.github.io/static/css/2.0aa8ee07.chunk.css",
+    "static/js/2.a7f156a3.chunk.js": "/portfolio.github.io/static/js/2.a7f156a3.chunk.js",
+    "static/js/2.a7f156a3.chunk.js.map": "/portfolio.github.io/static/js/2.a7f156a3.chunk.js.map",
+    "static/js/3.59453886.chunk.js": "/portfolio.github.io/static/js/3.59453886.chunk.js",
+    "static/js/3.59453886.chunk.js.map": "/portfolio.github.io/static/js/3.59453886.chunk.js.map",
     "index.html": "/portfolio.github.io/index.html",
-    "static/css/2.f38ddc32.chunk.css.map": "/portfolio.github.io/static/css/2.f38ddc32.chunk.css.map",
+    "static/css/2.0aa8ee07.chunk.css.map": "/portfolio.github.io/static/css/2.0aa8ee07.chunk.css.map",
     "static/css/main.31073f77.chunk.css.map": "/portfolio.github.io/static/css/main.31073f77.chunk.css.map",
-    "static/js/2.a7204e6b.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.a7204e6b.chunk.js.LICENSE.txt",
+    "static/js/2.a7f156a3.chunk.js.LICENSE.txt": "/portfolio.github.io/static/js/2.a7f156a3.chunk.js.LICENSE.txt",
     "static/media/Clinical-Form.08f7f9d2.png": "/portfolio.github.io/static/media/Clinical-Form.08f7f9d2.png",
     "static/media/Group-Proj.9057795b.png": "/portfolio.github.io/static/media/Group-Proj.9057795b.png",
     "static/media/Magazine.6065e3ea.png": "/portfolio.github.io/static/media/Magazine.6065e3ea.png",
@@ -26,10 +26,10 @@
     "static/media/typing.5fceade3.svg": "/portfolio.github.io/static/media/typing.5fceade3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.db3b0dd8.js",
-    "static/css/2.f38ddc32.chunk.css",
-    "static/js/2.a7204e6b.chunk.js",
+    "static/js/runtime-main.9cf52126.js",
+    "static/css/2.0aa8ee07.chunk.css",
+    "static/js/2.a7f156a3.chunk.js",
     "static/css/main.31073f77.chunk.css",
-    "static/js/main.f90f7c19.chunk.js"
+    "static/js/main.d0e9e72f.chunk.js"
   ]
 }
